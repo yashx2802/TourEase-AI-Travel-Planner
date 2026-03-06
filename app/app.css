@@ -542,3 +542,10 @@ body {
   top: 45px;
   right: 40px;
 }
+/* Hide Syncfusion trial banner */
+div[class*="e-license"],
+div[id*="syncfusion"],
+.e-license-banner,
+.e-license-warning {
+  display: none !important;
+}
